@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
         // UI: launch contract for runtime permissions
         binding.button.setOnClickListener {
-            // working mechanism of Google requesting runtime permission API:
+            // working mechanism of Google's API for requesting runtime permission:
             //  1st launching: request permissions
             //  2nd launching: 'one more' request permissions which is not granted
             //  No re-request after that.
